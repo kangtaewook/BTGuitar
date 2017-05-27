@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/chord4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+//--------------------------------------------C코드---------------------------------------------------------------------//
+<Button
+    android:id="@+id/C"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+	android:layout_marginLeft="35dp"
+    android:layout_marginTop="40dp"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:text="C"
+    android:textSize="20dp"
+    android:textColor="#FFFF00" />
+
+<Button
+    android:id="@+id/Cm"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="95dp"
+    android:text="Cm"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+    android:textAllCaps="false"
+     />
+
+<Button
+    android:id="@+id/C7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="152dp"
+    android:text="C7"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+     />
+
+<Button
+    android:id="@+id/CM7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="212dp"
+    android:text="CM7"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+     />
+
+<Button
+    android:id="@+id/Cm7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="272dp"
+    android:layout_marginTop="40dp"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:text="Cm7"
+    android:textColor="#FFFF00"
+    android:textSize="20dp"
+    android:textAllCaps="false" />
+
+//--------------------------------------------D코드---------------------------------------------------------------------//
+<Button
+    android:id="@+id/D"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+	android:layout_marginLeft="35dp"
+    android:layout_marginTop="120dp"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:text="D"
+    android:textSize="20dp"
+    android:textColor="#FFFF00" />
+
+<Button
+    android:id="@+id/Dm"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="120dp"
+    android:layout_marginLeft="95dp"
+    android:text="Dm"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+    android:textAllCaps="false"
+     />
+
+<Button
+    android:id="@+id/D7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="120dp"
+    android:layout_marginLeft="152dp"
+    android:text="D7"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+     />
+
+<Button
+    android:id="@+id/DM7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="120dp"
+    android:layout_marginLeft="212dp"
+    android:text="DM7"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+     />
+
+<Button
+    android:id="@+id/Dm7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="272dp"
+    android:layout_marginTop="120dp"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:text="Dm7"
+    android:textColor="#FFFF00"
+    android:textSize="20dp"
+    android:textAllCaps="false" />
+
+
+//--------------------------------------------E코드---------------------------------------------------------------------//
+
+<Button
+    android:id="@+id/E"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+	android:layout_marginLeft="35dp"
+    android:layout_marginTop="200dp"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:text="E"
+    android:textSize="20dp"
+    android:textColor="#FFFF00" />
+
+<Button
+    android:id="@+id/Em"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="200dp"
+    android:layout_marginLeft="95dp"
+    android:text="Em"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+    android:textAllCaps="false"
+     />
+
+<Button
+    android:id="@+id/E7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="200dp"
+    android:layout_marginLeft="152dp"
+    android:text="E7"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+     />
+
+<Button
+    android:id="@+id/EM7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="200dp"
+    android:layout_marginLeft="212dp"
+    android:text="EM7"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+     />
+
+<Button
+    android:id="@+id/Em7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="272dp"
+    android:layout_marginTop="200dp"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:text="Em7"
+    android:textColor="#FFFF00"
+    android:textSize="20dp"
+    android:textAllCaps="false" />
+//--------------------------------------------F코드---------------------------------------------------------------------//
+
+<Button
+    android:id="@+id/F"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+	android:layout_marginLeft="35dp"
+    android:layout_marginTop="280dp"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:text="F"
+    android:textSize="20dp"
+    android:textColor="#FFFF00" />
+
+<Button
+    android:id="@+id/Fm"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="280dp"
+    android:layout_marginLeft="95dp"
+    android:text="Fm"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+    android:textAllCaps="false"
+     />
+
+<Button
+    android:id="@+id/F7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="280dp"
+    android:layout_marginLeft="152dp"
+    android:text="F7"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+     />
+
+<Button
+    android:id="@+id/FM7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="280dp"
+    android:layout_marginLeft="212dp"
+    android:text="FM7"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+     />
+
+<Button
+    android:id="@+id/Fm7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="272dp"
+    android:layout_marginTop="280dp"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:text="Fm7"
+    android:textColor="#FFFF00"
+    android:textSize="20dp"
+    android:textAllCaps="false" />
+//--------------------------------------------G코드---------------------------------------------------------------------//
+
+
+<Button
+    android:id="@+id/G"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+	android:layout_marginLeft="35dp"
+    android:layout_marginTop="360dp"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:text="G"
+    android:textSize="20dp"
+    android:textColor="#FFFF00" />
+
+<Button
+    android:id="@+id/Gm"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="360dp"
+    android:layout_marginLeft="95dp"
+    android:text="Gm"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+    android:textAllCaps="false"
+     />
+
+<Button
+    android:id="@+id/G7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="360dp"
+    android:layout_marginLeft="152dp"
+    android:text="G7"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+     />
+
+<Button
+    android:id="@+id/GM7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="360dp"
+    android:layout_marginLeft="212dp"
+    android:text="GM7"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+     />
+
+<Button
+    android:id="@+id/Gm7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="272dp"
+    android:layout_marginTop="360dp"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:text="Gm7"
+    android:textColor="#FFFF00"
+    android:textSize="20dp"
+    android:textAllCaps="false" />
+//--------------------------------------------A코드---------------------------------------------------------------------//
+
+
+<Button
+    android:id="@+id/A"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+	android:layout_marginLeft="35dp"
+    android:layout_marginTop="440dp"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:text="A"
+    android:textSize="20dp"
+    android:textColor="#FFFF00" />
+
+<Button
+    android:id="@+id/Am"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="440dp"
+    android:layout_marginLeft="95dp"
+    android:text="Am"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+    android:textAllCaps="false"
+     />
+
+<Button
+    android:id="@+id/A7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="440dp"
+    android:layout_marginLeft="152dp"
+    android:text="A7"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+     />
+
+<Button
+    android:id="@+id/AM7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="440dp"
+    android:layout_marginLeft="212dp"
+    android:text="AM7"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+     />
+
+<Button
+    android:id="@+id/Am7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="272dp"
+    android:layout_marginTop="440dp"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:text="Am7"
+    android:textColor="#FFFF00"
+    android:textSize="20dp"
+    android:textAllCaps="false" />
+//--------------------------------------------B코드---------------------------------------------------------------------//
+
+
+<Button
+    android:id="@+id/B"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+	android:layout_marginLeft="35dp"
+    android:layout_marginTop="520dp"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:text="B"
+    android:textSize="20dp"
+    android:textColor="#FFFF00" />
+
+<Button
+    android:id="@+id/Bm"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="520dp"
+    android:layout_marginLeft="95dp"
+    android:text="Bm"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+    android:textAllCaps="false"
+     />
+
+<Button
+    android:id="@+id/B7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="520dp"
+    android:layout_marginLeft="152dp"
+    android:text="B7"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+     />
+
+<Button
+    android:id="@+id/BM7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="520dp"
+    android:layout_marginLeft="212dp"
+    android:text="BM7"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:textSize="20dp"
+    android:textColor="#FFFF00"
+     />
+
+<Button
+    android:id="@+id/Bm7"
+    android:layout_width="50dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="272dp"
+    android:layout_marginTop="520dp"
+    android:background="#110000ff"
+    android:src="@drawable/abc_edit_text_material"
+    android:text="Bm7"
+    android:textColor="#FFFF00"
+    android:textSize="20dp"
+    android:textAllCaps="false" />
+
+<ListView
+    android:id="@+id/in8"
+    android:layout_width="match_parent"
+    android:layout_height="37dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:stackFromBottom="true"
+    android:transcriptMode="alwaysScroll" >
+</ListView>
+
+</RelativeLayout>

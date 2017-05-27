@@ -1,0 +1,130 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+C:\Users\aaaa8\Desktop\github\BT Guitar
+                                -      
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+appcompat-v7 => [com.android.support:appcompat-v7:21.0.3]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* a10f1line.MP3 => a10f1line.mp3
+* a10f2line.MP3 => a10f2line.mp3
+* a10f4line.MP3 => a10f4line.mp3
+* a10f5line.MP3 => a10f5line.mp3
+* a1f1line.MP3 => a1f1line.mp3
+* a1f2line.MP3 => a1f2line.mp3
+* a1f3line.MP3 => a1f3line.mp3
+* a1f4line.MP3 => a1f4line.mp3
+* a1f5line.MP3 => a1f5line.mp3
+* a1f6line.MP3 => a1f6line.mp3
+* a1line.MP3 => a1line.mp3
+* a2f1line.MP3 => a2f1line.mp3
+* a2f3line.MP3 => a2f3line.mp3
+* a2f4line.MP3 => a2f4line.mp3
+* a2f5line.MP3 => a2f5line.mp3
+* a2f6line.MP3 => a2f6line.mp3
+* a2line.MP3 => a2line.mp3
+* a3f1line.MP3 => a3f1line.mp3
+* a3f2line.MP3 => a3f2line.mp3
+* a3f3line.MP3 => a3f3line.mp3
+* a3f4line.MP3 => a3f4line.mp3
+* a3f5line.MP3 => a3f5line.mp3
+* a3f6line.MP3 => a3f6line.mp3
+* a3line.MP3 => a3line.mp3
+* a4f2line.MP3 => a4f2line.mp3
+* a4f3line.MP3 => a4f3line.mp3
+* a4f4line.MP3 => a4f4line.mp3
+* a4f5line.MP3 => a4f5line.mp3
+* a4f6line.MP3 => a4f6line.mp3
+* a4line.MP3 => a4line.mp3
+* a5f1line.MP3 => a5f1line.mp3
+* a5f2line.MP3 => a5f2line.mp3
+* a5f3line.MP3 => a5f3line.mp3
+* a5f4line.MP3 => a5f4line.mp3
+* a5f5line.MP3 => a5f5line.mp3
+* a5f6line.MP3 => a5f6line.mp3
+* a5line.MP3 => a5line.mp3
+* a6f3line.MP3 => a6f3line.mp3
+* a6f4line.MP3 => a6f4line.mp3
+* a6f5line.MP3 => a6f5line.mp3
+* a6f6line.MP3 => a6f6line.mp3
+* a6line.MP3 => a6line.mp3
+* a7f1line.MP3 => a7f1line.mp3
+* a7f2line.MP3 => a7f2line.mp3
+* a7f3line.MP3 => a7f3line.mp3
+* a7f4line.MP3 => a7f4line.mp3
+* a7f5line.MP3 => a7f5line.mp3
+* a7f6line.MP3 => a7f6line.mp3
+* a8f1line.MP3 => a8f1line.mp3
+* a8f2line.MP3 => a8f2line.mp3
+* a8f3line.MP3 => a8f3line.mp3
+* a8f4line.MP3 => a8f4line.mp3
+* a8f5line.MP3 => a8f5line.mp3
+* a9f1line.MP3 => a9f1line.mp3
+* a9f2line.MP3 => a9f2line.mp3
+* a9f3line.MP3 => a9f3line.mp3
+* a9f4line.MP3 => a9f4line.mp3
+* a9f5line.MP3 => a9f5line.mp3
+* a9f6line.MP3 => a9f6line.mp3
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

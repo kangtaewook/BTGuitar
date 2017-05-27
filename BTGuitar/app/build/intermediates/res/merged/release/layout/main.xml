@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/chord2"
+        style="@style/Widget.AppCompat.Toolbar.Button.Navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/chord"
+        android:layout_marginTop="36dp"
+        android:text="Chord2"
+        android:textColor="@color/color_white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/chords3button"
+        style="@style/Widget.AppCompat.Toolbar.Button.Navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/chord2"
+        android:layout_marginTop="48dp"
+        android:text="ChordsButton"
+        android:textColor="@color/color_white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/stroke"
+        style="@style/Widget.AppCompat.Toolbar.Button.Navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:text="Stroke"
+        android:textColor="@color/color_white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/chord"
+        style="@style/Widget.AppCompat.Toolbar.Button.Navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/stroke"
+        android:layout_marginTop="31dp"
+        android:text="Chord"
+        android:textColor="@color/color_white"
+        android:textSize="30sp" />
+
+</RelativeLayout>
